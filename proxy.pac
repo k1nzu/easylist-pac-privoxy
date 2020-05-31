@@ -171,8 +171,9 @@ var good_da_host_JSON = { "apple.com": null,
 "mt-ingestion-service-st11.itunes-apple.com.akadns.net": null,
 "microsoft.com": null,
 "mozilla.com": null,
-"mozilla.org": null };
-var good_da_host_exact_flag = 71 > 0 ? true : false;  // test for non-zero number of rules
+"mozilla.org": null
+"www.googleadservices.com": null };
+var good_da_host_exact_flag = 72 > 0 ? true : false;  // test for non-zero number of rules
     
 // 0 rules as an efficient NFA RegExp:
 var good_da_host_RegExp = /^$/;
