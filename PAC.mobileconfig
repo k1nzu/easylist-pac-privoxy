@@ -41,7 +41,7 @@
 	<string>AdBlock Profile</string>
 	
 	<key>PayloadIdentifier</key>
-	<string>privoxy.fc9dda5e-a347-11ea-bb37-0242ac130002</string>
+	<string>pac.privoxy.fc9dda5e-a347-11ea-bb37-0242ac130002</string>
 	
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
