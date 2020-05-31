@@ -30,7 +30,7 @@
 			<false/>
 
 			<key>ProxyPACURL</key>
-			<string>https://github.com/k1nzu/easylist-pac-privoxy/blob/master/proxy.pac</string>
+			<string>https://raw.githubusercontent.com/k1nzu/easylist-pac-privoxy/master/proxy.pac</string>
 
 			<key>ProxyType</key>
 			<string>Auto</string>
@@ -41,7 +41,7 @@
 	<string>AdBlock Profile</string>
 	
 	<key>PayloadIdentifier</key>
-	<string>pac.privoxy.fc9dda5e-a347-11ea-bb37-0242ac130002</string>
+	<string>privoxy.fc9dda5e-a347-11ea-bb37-0242ac130002</string>
 	
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
