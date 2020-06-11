@@ -233,7 +233,7 @@ var good_da_host_exceptions_JSON = { "iad.apple.com": null,
 "www.bingads.microsoft.com": null };
 var good_da_host_exceptions_exact_flag = 39 > 0 ? true : false;  // test for non-zero number of rules
 
-// 2050 rules:
+// 2048 rules:
 var bad_da_host_JSON = { "jobthread.com": null,
 "content.ad": null,
 "webvisor.ru": null,
@@ -2275,7 +2275,6 @@ var bad_da_host_JSON = { "jobthread.com": null,
 "awvuhwqyimgd.com": null,
 "connect.facebook.com": null,
 "connect.facebook.net": null,
-"platform.twitter.com": null,
 "api.areametrics.com": null,
 "api.beaconsinspace.com": null,
 "mobileapi.mobiquitynetworks.com": null,
@@ -2284,7 +2283,7 @@ var bad_da_host_JSON = { "jobthread.com": null,
 "ios-quinoa-high-frequency-events-prod.sense360eng.com": null,
 "v1.blueberry.cloud.databerries.com": null,
 "outbrain.com": null };
-var bad_da_host_exact_flag = 2049 > 0 ? true : false;  // test for non-zero number of rules
+var bad_da_host_exact_flag = 2048 > 0 ? true : false;  // test for non-zero number of rules
     
 // 9 rules as an efficient NFA RegExp:
 var bad_da_host_RegExp = /^(?:[\w-]+\.)*?(?:tracker(?=([\s\S]*?\.richcasino\.com))\1|imgadult\.com(?=([\s\S]*?))\2|imgtaxi\.com(?=([\s\S]*?))\3|imgwallet\.com(?=([\s\S]*?))\4|images\.(?=([\s\S]*?\.criteo\.net))\5|analytics\-beacon\-(?=([\s\S]*?\.amazonaws\.com))\6|imgdrive\.net(?=([\s\S]*?))\7|rcm(?=([\s\S]*?\.amazon\.))\8|stats\-(?=([\s\S]*?\.p2pnow\.ru))\9)/i;
